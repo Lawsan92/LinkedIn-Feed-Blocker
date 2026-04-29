@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "LinkedIn Block Feed",
+  "version": "1.0",
+  "action": {
+    "default_title": "LinkedIn Block Feed",
+    "default_icon": "linkedin_icon.png",
+    "default_popup": "linkedin_icon.html"
+  },
+  "permissions": [],
+  "host_permissions": ["https://www.linkedin.com/*", "https://linkedin.com/*"],
+  "content_scripts": [
+    {
+      "matches": ["https://www.linkedin.com/*", "https://linkedin.com/*"],
+      "js": ["scripts/blockFeeds.js"],
+      "run_at": "document_end"
+    }
+  ]
+}
