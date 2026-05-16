@@ -10,6 +10,10 @@ Each switch filters posts based on post type. Toggle the switch to hide the post
 
 <img src='https://res.cloudinary.com/ducqdbpaw/image/upload/v1778942787/Screenshot_2026-05-16_at_09.46.20_agfxzq.jpg'/>
 
+### Architecture
+
+<img src='https://res.cloudinary.com/ducqdbpaw/image/upload/v1778946612/Screenshot_2026-05-16_at_10.50.06_vxqldb.jpg'/>
+
 ### TechStack
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-grey?logo=javascript)
